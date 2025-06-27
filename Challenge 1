@@ -1,3 +1,5 @@
+#challenge 1
+
 In this code challenge you have an eCommerce database full of tables that you might expect to see in a real database.
 Write a SQL query to answer the following question. What are all the products in the products table?
 
@@ -7,3 +9,16 @@ id	name	description	price
 1	Retro Gaming T-Shirt	All your fave gaming characters on one t-shirt.	10.99
 2	Generic Super Hero T-Shirt	Your fave super hero is on this shirt. Wear it.	11.99
 3	Some Quirky Phrase T-Shirt	Annoy your friends with this t-shirt. They'll seeing this phrase everytime you wear it.	9.99
+
+#challenge 2 selecting two data points from different tables. 
+ #Find all information from the patrons table
+#SELECT * FROM <table name>;
+
+2. SELECT first_name, email FROM patrons;
+
+#answer
+first_name	email
+Andrew	andrew.chalkley@teamtreehouse.com
+Dave	dave.mcfarland@teamtreehouse.com
+Alena	alena.holligan@teamtreehouse.com
+Michael	michael.poley@teamtreehouse.com
