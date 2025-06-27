@@ -66,3 +66,13 @@ street	city	state	zip
 2772 6th PL	Portland	OR	97284
 3457 102nd AVE	Newport	OR	97262
 2487 102nd AVE	Salem	OR	97296
+
+#Challenge 4 We're back in our e-commerce database. There's a products table with the columns id, name, description and price.
+Can you retrieve both the name and description aliased as "Product Name" and "Product Description".
+
+4. > SELECT name AS "Product Name", description AS "Product Description" FROM products;
+
+Product Name	Product Description
+Retro Gaming T-Shirt	All your fave gaming characters on one t-shirt.
+Generic Super Hero T-Shirt	Your fave super hero is on this shirt. Wear it.
+Some Quirky Phrase T-Shirt	Annoy your friends with this t-shirt. They'll seeing this phrase everytime you wear it.
