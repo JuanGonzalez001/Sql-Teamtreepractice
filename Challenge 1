@@ -14,7 +14,7 @@ id	name	description	price
  #Find all information from the patrons table
 #SELECT * FROM <table name>;
 
-2. SELECT first_name, email FROM patrons;
+1. SELECT first_name, email FROM patrons;
 
 #answer
 first_name	email
@@ -22,3 +22,20 @@ Andrew	andrew.chalkley@teamtreehouse.com
 Dave	dave.mcfarland@teamtreehouse.com
 Alena	alena.holligan@teamtreehouse.com
 Michael	michael.poley@teamtreehouse.com
+
+#challenge 3 Here are the columns in a users table in an e-commerce site: id, username, password, first_name, last_name.
+Run a SQL query to get the two columns you'd need to generate the full names of each customer.
+
+2. > SELECT first_name, last_name FROM users;
+
+first_name	last_name
+Andrew	Chalkley
+Dave	McFarland
+Pasan	Premaratne
+Lauren	Chalkley
+Rachael	Hinkley
+Lola	Love
+Nick	Pettit
+Cory	Tepper
+Jim	Hoskins
+Michael	Poley
