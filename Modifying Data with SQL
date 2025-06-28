@@ -1,4 +1,4 @@
-#This repository showcases how a query would be used to pull data that is being asked. 
+#This file showcases how a query would be used to pull data that is being asked USING CRUD. 
 
 # task 1 
 #We have an eCommerce database and it has a products table. It has the columns id, name, description and price.
@@ -11,3 +11,9 @@ Add a new product to the products table. Use any valid values you want. All colu
 Add a new user to the users table. Use any valid values you want. All columns are required. The id column is auto incrementing.
 
 2. INSERT INTO users (id,username,password,first_name,last_name) Values (NULL, 'CHippy', 'passwords', 'Chappy', 'Dude');
+
+#Task 3 
+#We have an eCommerce database and it has a products table. It has the columns id, name, description and price.
+The warehouse is closing down. There's a clearance sale and all products need to be priced 0.99.
+> UPDATE products SET price =0.99;
+
