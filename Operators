@@ -23,4 +23,11 @@ Find all the matches in the results table where "Hessle" was playing away as the
 id	home_team	home_score	away_team	away_score	played_on
 2	Burley	    12	          Hessle	19	 2015-09-12   
 
-#Task 4 
+#Task 4 We have an e-commerce database. Inside the products table we have the columns of id, name, description and price.
+Without using the OR keyword, find all products with the price of 7.99, 9.99 or 11.99
+
+4. SELECT * FROM products WHERE price IN(7.99,9.99,11.99);
+
+id	name	                      description	                                                                            price
+2	  Generic Super Hero T-Shirt	Your fave super hero is on this shirt. Wear it.	                                         11.99
+3	  Some Quirky Phrase T-Shirt	Annoy your friends with this t-shirt. They'll seeing this phrase everytime you wear it.	9.99
