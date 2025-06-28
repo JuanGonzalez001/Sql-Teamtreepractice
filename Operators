@@ -15,3 +15,12 @@ Find all results where the away team's score is lower than 10.
 id	home_team	home_score	away_team	away_score	played_on
 3	Hessle	43	Skipton	0	2015-09-26
 
+#Task 3 We're back in the sports team database. There's a results table with the columns id, home_team, home_score, away_team, away_score and played_on .
+Find all the matches in the results table where "Hessle" was playing away as the away team and their score was above 18 points.
+
+3. SELECT * FROM results WHERE away_team ="Hessle" AND away_score >18;
+
+id	home_team	home_score	away_team	away_score	played_on
+2	Burley	    12	          Hessle	19	 2015-09-12   
+
+#Task 4 
