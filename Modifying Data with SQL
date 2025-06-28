@@ -1,0 +1,5 @@
+# task 1 
+#We have an eCommerce database and it has a products table. It has the columns id, name, description and price.
+Add a new product to the products table. Use any valid values you want. All columns are required. The id column is auto incrementing.
+
+1. INSERT INTO products (id,name, description, price) VALUES (NULL, 'Lipstick1', 'lipgloss that works', 10.99);
