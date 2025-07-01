@@ -1,1 +1,15 @@
+#This file will showcase the different operators such as ORDDER BY, DESC/ASC.
+#task 1
+# Imagine you're a developer on a smartphone with an embedded database. There's a phone_book table with the fields, first_name, last_name and phone. Write the SQL query to order first by last_name and then by first_name in alphabetical order.
+Select all columns.
 
+1. > SELECT * FROM phone_book ORDER BY last_name ASC, first_name ASC;
+
+id	    first_name	last_name	  phone
+6	    Brittney	    Blews	      (553)-555-9219
+3	    Andrew	      Chalkley	  (679)-555-1847
+4  	  Lauren	      Chalkley	  (979)-555-5847
+1	    Al ena	      Holligan	  (590)-555-6535
+2	    Elizabeth	    Kozup	      (635)-555-8583
+7	    Jonathan	    Luna	      (542)-555-8703
+5    	Dave	        McFarland	  (586)-555-4522
