@@ -17,3 +17,10 @@ Add a new user to the users table. Use any valid values you want. All columns ar
 The warehouse is closing down. There's a clearance sale and all products need to be priced 0.99.
 > UPDATE products SET price =0.99;
 
+#Task 4 We 
+#have an eCommerce database and it has a products table. It has the columns id, name, description and price.
+Delete all products priced at 11 or higher!
+
+3. > DELETE FROM products WHERE price >=11;
+
+#
