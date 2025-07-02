@@ -41,3 +41,22 @@ id	title	author	genre	first_published
 3	Harry Potter and the Prisoner of Azkaban	J.K. Rowling	Fantasy	1999
 4	Harry Potter and the Goblet of Fire	J.K. Rowling	Fantasy	2000
 5	Harry Potter and the Order of the Phoenix	J.K. Rowling	Fantasy	2003
+
+#Task 7 
+# In a library database there's a books table. There's a title, author, genre and first_published column.
+The library database is connected to a website displaying 10 books at a time, sorted by the title alphabetically.
+Write a query to bring back the second page of results. Please retrieve all columns of information.
+
+6. SELECT * FROM books ORDER BY title ASC LIMIT 10 OFFSET 10;
+
+id	title	author	genre	first_published
+4	Harry Potter and the Goblet of Fire	J.K. Rowling	Fantasy	2000
+6	Harry Potter and the Half-Blood Prince	J.K. Rowling	Fantasy	2005
+5	Harry Potter and the Order of the Phoenix	J.K. Rowling	Fantasy	2003
+1	Harry Potter and the Philosopher's Stone	J.K. Rowling	Fantasy	1997
+3	Harry Potter and the Prisoner of Azkaban	J.K. Rowling	Fantasy	1999
+14	Pride and Prejudice	Jane Austen	Classic	1813
+12	Ready Player One	Ernest Cline	Science Fiction	2011
+18	The Circle	Dave Eggers	Science Fiction	2013
+11	The Martian	Andy Weir	Science Fiction	2014
+9	The Universe in a Nutshell	Stephen Hawking	Non Fiction	2001
