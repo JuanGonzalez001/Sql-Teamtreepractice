@@ -26,3 +26,11 @@ Andrew Chalkley <andrew@teamtreehouse.com>
 Dave McFarland <dave@teamtreehouse.com>
 Alena Holligan <alena@teamtreehouse.com>
 Michael Poley <michael@teamtreehouse.com>
+
+#Task 3
+# In the library database there's a books table with the columns id, title, author, genre and first_published.
+Find the book with the longest title. Show the title and then the length. Alias the result of the length calculation to be longest_length. Only retrieve the longest book.
+3. SELECT title, 
+LENGTH(title) AS "longest_length" 
+FROM books 
+ORDER BY longest_length DESC LIMIT 1;
