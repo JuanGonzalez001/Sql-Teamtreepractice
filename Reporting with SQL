@@ -34,3 +34,31 @@ Find the book with the longest title. Show the title and then the length. Alias 
 LENGTH(title) AS "longest_length" 
 FROM books 
 ORDER BY longest_length DESC LIMIT 1;
+
+#Task 4
+#In a library database there's a books table. There's an id, title, author, genre and first_published column.
+Write a query that will return only the title and author. Bring back the title in lowercase and the author in uppercase. Alias them as lowercase_title and uppercase_author respectively.
+
+4. > SELECT LOWER(title) AS "lowercase_title", UPPER(author) AS "uppercase_author" FROM books;
+
+lowercase_title	uppercase_author
+harry potter and the philosopher's stone	J.K. ROWLING
+harry potter and the chamber of secrets	J.K. ROWLING
+harry potter and the prisoner of azkaban	J.K. ROWLING
+harry potter and the goblet of fire	J.K. ROWLING
+harry potter and the order of the phoenix	J.K. ROWLING
+harry potter and the half-blood prince	J.K. ROWLING
+harry potter and the deathly hallows	J.K. ROWLING
+a brief history of time	STEPHEN HAWKING
+the universe in a nutshell	STEPHEN HAWKING
+frankenstein	MARY SHELLEY
+the martian	ANDY WEIR
+ready player one	ERNEST CLINE
+armada	ERNEST CLINE
+pride and prejudice	JANE AUSTEN
+emma	JANE AUSTEN
+1984	GEORGE ORWELL
+dune	FRANK HERBERT
+the circle	DAVE EGGERS
+contact	CARL SAGAN
+animal farm	GEORGE ORWELL
