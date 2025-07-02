@@ -1,4 +1,4 @@
-#This file will showcase the different operators such as ORDDER BY, DESC/ASC.
+#This file will showcase the different operators such as ORDDER BY, DESC/ASC, ||, "". 
 #task 1
 # Imagine you're a developer on a smartphone with an embedded database. There's a phone_book table with the fields, first_name, last_name and phone. Write the SQL query to order first by last_name and then by first_name in alphabetical order.
 Select all columns.
@@ -13,3 +13,16 @@ id	    first_name	last_name	  phone
 2	    Elizabeth	    Kozup	      (635)-555-8583
 7	    Jonathan	    Luna	      (542)-555-8703
 5        Dave	        McFarland	  (586)-555-4522
+
+# task 2
+#In the library database there's a patrons table listing all the users of the library. The columns are id, first_name, last_name, address, email, library_id and zip_code.
+Generate a list of strings that are in the following format: Andrew Chalkley <andrew@teamtreehouse.com>. Concatenate the first name, last name and email address for all users.
+Alias it to to_field. This will be used in the "To" field in email marketing.
+
+2. > SELECT first_name || ' ' ||last_name|| ' <' || email|| '>' AS "to_field" FROM patrons;
+
+to_field
+Andrew Chalkley <andrew@teamtreehouse.com>
+Dave McFarland <dave@teamtreehouse.com>
+Alena Holligan <alena@teamtreehouse.com>
+Michael Poley <michael@teamtreehouse.com>
