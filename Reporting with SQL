@@ -76,3 +76,5 @@ Alias it as obfuscated_email .
 
 6. SELECT REPLACE(email , '@', '<at>') AS "obfuscated_email"
 FROM customers;
+
+
