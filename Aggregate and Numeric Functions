@@ -32,3 +32,10 @@ Fiction	1
 Horror	1
 Non Fiction	2
 Science Fiction	6
+
+#Task 4
+#In the library database there's a books table. There are id, title, author, genre and first_published columns.
+Write a query to count all the unique genres in the books table. Alias it as total_genres.
+
+4. SELECT COUNT(DISTINCT genre) AS total_genres
+FROM books;
