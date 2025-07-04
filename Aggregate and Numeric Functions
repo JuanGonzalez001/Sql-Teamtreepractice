@@ -17,3 +17,18 @@ The books table has the columns id, title, author, genre and first_published.
 2. SELECT COUNT(*) AS 'jk_book_count'
 FROM books 
 WHERE author="J.K. Rowling";
+
+#Task 3
+#In the library database there's a books table. There are id, title, author, genre and first_published columns.
+Count all the books in each genre. Include the genre column first and the genre_count as the second column of information.
+
+3. > SELECT genre, COUNT(*) AS genre_count FROM books GROUP BY genre;
+
+genre	genre_count
+1
+Classic	2
+Fantasy	7
+Fiction	1
+Horror	1
+Non Fiction	2
+Science Fiction	6
