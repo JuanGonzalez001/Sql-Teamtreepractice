@@ -46,3 +46,5 @@ The movie "Starman" has the id of 6. Movie ids are found in the movie_id column 
  5. SELECT SUM(rating) as 'starman_total_ratings'
 FROM reviews
 WHERE movie_id =6;
+
+#Task 6
