@@ -54,3 +54,12 @@ The movie "Starman" has an id of 6. Movie ids are stored in the movie_id column.
 6. SELECT AVG(rating) AS average_rating
 FROM reviews
 WHERE movie_id=6;
+
+#Task 7
+#We're in a movie database. There's a reviews table with the columns of id, movie_id, username, review and rating.
+The movie "Starman" has an id of 6. Movie ids are stored in the movie_id column. Calculate the minimum and maximum ratings for "Starman". Alias them as star_min and star_max.
+
+7. SELECT MAX(rating) AS star_max, MIN(rating) AS star_min
+FROM reviews
+WHERe movie_id=6;
+
