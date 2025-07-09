@@ -8,3 +8,9 @@ Count the total number of orders that were ordered today and have the status of 
 FROM orders
 WHERE status = 'shipped'
   AND DATE(ordered_on) = CURRENT_DATE;
+
+#Task 2
+#How can I retrieve just the date from a timestamp column named order_date in a table orders?
+
+2. SELECT DATE(order_date) AS order_date_only
+FROM orders;
