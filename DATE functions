@@ -14,3 +14,5 @@ WHERE status = 'shipped'
 
 2. SELECT DATE(order_date) AS order_date_only
 FROM orders;
+
+#Task 3
