@@ -8,4 +8,3 @@ Count the total number of orders that were ordered today and have the status of 
 FROM orders
 WHERE status = 'shipped'
   AND DATE(ordered_on) = CURRENT_DATE;
-
