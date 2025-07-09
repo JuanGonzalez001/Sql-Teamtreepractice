@@ -21,4 +21,7 @@ FROM orders;
 3. SELECT DATE_FORMAT(CURRENT_DATE, '%Y-%m-01') AS first_day_of_month;
 
 #Task 4
-#
+#How can I get the date 30 days ago from the current date using the DATE function in SQL?
+
+4. SELECT DATE_SUB(CURDATE(), INTERVAL 30 DAY) AS thirty_days_ago;
+
