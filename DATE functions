@@ -16,3 +16,6 @@ WHERE status = 'shipped'
 FROM orders;
 
 #Task 3
+#How can I get the date of the first day of the current month using the DATE function in SQL?
+
+3. SELECT DATE_FORMAT(CURRENT_DATE, '%Y-%m-01') AS first_day_of_month;
